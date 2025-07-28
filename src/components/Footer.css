@@ -1,0 +1,37 @@
+#Footer{
+    text-align: center;
+    background-color: var(--main-Background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+    padding: 0 200px;
+    position: relative;
+    flex-wrap: wrap;
+}
+footer #Info{
+    text-align: left;
+}
+footer #Info h4{
+    color: var(--main-color);
+    margin-bottom: 0;
+}
+footer #Info p{
+    color: var(--half-main-color);
+    margin-top: 10px;
+}
+footer i{
+    cursor: pointer;
+    color: var(--subtext-color);
+    padding: 10px;
+    font-size: 1.3em;
+}
+#Link {
+    transform: translateX(-100px);
+}
+footer #Link a{ 
+    cursor: pointer;
+    color: var(--subtext-color);
+    font-weight: 500;
+    margin: 0 20px;
+}

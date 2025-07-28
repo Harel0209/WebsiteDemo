@@ -1,0 +1,58 @@
+#Pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12em;
+  margin-bottom: 12em;
+}
+
+#Pricing section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; 
+  max-width: 1700px;  
+  gap: 25px;
+}
+
+#Pricing #choose {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  color: var(--Heading-color);
+  margin-bottom: 84px;
+}
+
+#Pricing #choose span {
+  color: var(--primary-color);
+}
+
+@media (max-width: 1200px) {
+  #Pricing section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 992px) {
+  #Pricing section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 768px) {
+  #Pricing section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 576px) {
+  #Pricing section {
+    flex-direction: column;
+    align-items: center;
+  }
+}

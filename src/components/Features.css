@@ -1,0 +1,72 @@
+#Features {
+    margin: auto;
+    text-align: center;
+    max-width: 1510px;  
+    padding: 0 20px;
+    padding-bottom: 12em;
+}
+#Features h1 {
+    font-family: 'Inter Tight', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: var(--Heading-color);
+}
+#Features h1 span{
+    margin-right: 5px;
+    background: linear-gradient(to bottom, transparent 70%, var(--lighter-primary-color) 70%, var(--lighter-primary-color) 90%, transparent 90%);
+}
+
+#Features p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--subtext-color)
+}
+#Feats {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 68px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.Feature {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex: 1;
+    min-width: 250px;
+    max-width: 450px;
+    text-align: left;
+}
+.Feature i {
+    color: var(--primary-color);
+    font-size: 32px;
+    margin-right: 16px;
+    align-self: flex-start;
+    margin-top: 25px;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.details h5 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: var(--second-main-color);
+    margin-bottom: 0px;
+}
+.details p {
+    margin-top: 7px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+

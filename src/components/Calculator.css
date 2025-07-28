@@ -1,0 +1,93 @@
+.Calc{
+    padding-top: 100px;
+    padding-bottom: 90px;
+    background-color: var(--Background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Calc h1{
+    margin: 0 auto;
+    font-family: 'Inter Tight';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: var(--Heading-color);
+    margin-bottom: 48px;
+}
+.Calc h2{
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 29px;
+    color: var(--Heading-color);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.Calc h3{
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 29px;
+    color: var(--Heading-color);
+    margin-bottom: 5px;
+}
+.Calc p{
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    color: var(--black-shadow);
+    margin-bottom: 35px;
+}
+.Slider p{
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: var(--semi-main-color);
+    margin: 15px;
+}
+.Slider input {
+    -webkit-appearance: none; 
+    width: 125%; 
+    height: 10px; 
+    background: #d9d9d9; 
+    border-radius: 5px; 
+    outline: none; 
+    opacity: 0.7; 
+    transition: opacity 0.2s; 
+    margin-left: -12.5%;
+}
+.Slider input:hover {
+    opacity: 1;
+}
+.Slider input::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    background: var(--primary-color); 
+    cursor: pointer; 
+    border: none;
+}
+.Calc button{
+    background-color: var(--primary-color);
+    margin: 0 auto;
+    width: 670px;
+    box-shadow: 0px 0px 20px var(--shadow-color);
+}
+.Calc Button:hover{
+    background-color: var(--darker-primary-color);
+}
+.dark .Slider input {
+    background: #313b55;
+}
